@@ -47,9 +47,9 @@ st.markdown("""
 # Load model and data
 @st.cache_data
 def load_data():
-    model = pickle.load(open("../models/best_model.pkl", "rb"))
-    scaler = pickle.load(open("../models/scaler.pkl", "rb"))
-    df = pd.read_csv("../data/cleaned/merged_data.csv")
+    model = pickle.load(open("models/best_model.pkl", "rb"))
+    scaler = pickle.load(open("models/scaler.pkl", "rb"))
+    df = pd.read_csv("data/cleaned/merged_data.csv")
     return model, scaler, df
 
 model, scaler, df = load_data()
