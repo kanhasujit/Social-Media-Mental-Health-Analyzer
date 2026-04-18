@@ -10,7 +10,7 @@ from PIL import Image
 
 st.set_page_config(
     page_title="Mental Health & Social Media Analyzer",
-    page_icon=Image.open("../app/mental_health_logo.png"),
+    page_icon=Image.open("mental_health_logo.png"),
     layout="wide"
 )
 
