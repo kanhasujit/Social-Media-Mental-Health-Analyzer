@@ -186,7 +186,7 @@ elif page == "Prediction":
 elif page == "Insights":
     st.markdown('<h1 class="main-header">Data Insights</h1>', unsafe_allow_html=True)
 
-    conn = sqlite3.connect("../data/database/mental_health.db")
+    conn = sqlite3.connect('data/database/mental_health.db')
 
     # Key metrics
     dep_pct = round(df['depression_label'].mean() * 100, 1)
