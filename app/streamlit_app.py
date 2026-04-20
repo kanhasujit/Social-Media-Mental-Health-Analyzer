@@ -265,14 +265,6 @@ elif page == "Insights":
 # Chat Page
 elif page == "Chat":
     st.sidebar.markdown("Ask about mental health, social media habits, or wellness tips")
-    # st.markdown("""
-    # <div style='text-align:center; padding: 40px 20px;'>
-    #     <h1 class="main-header" style='margin: 10px 0;'>Mental Health Assistant</h1>
-    #     <p style='color:#e2e8f0; font-size: 18px; margin: 20px 0;'>
-    #     Ask about mental health, social media habits, or wellness tips
-    #     </p>
-    # </div>
-    # """, unsafe_allow_html=True)
 
     components.iframe(
         "https://scizzor-bot-deploy.hf.space",
